@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
+  }
+  body{
+    background-color: rgb(188, 230, 255);
+  }
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+.weatherCont{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  background-color: rgb(74, 201, 252);
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: 1px solid rgb(36, 193, 255);
+}
+.infoBox{
+  display: grid;
+  grid-template-columns: 0.4fr 2fr;
+  grid-template-rows: repeat(4, 1fr);
+  padding: 10px;
+}
+p{
+  display: inline-block;
+}
+.info{
+  font-size: 20px;
+  font-weight: 700;
+margin-right: 10px;
+  text-align: left;
+  color:rgb(12, 14, 114);
+}
+.result{
+  text-align: left;
+ padding-top: 4px;
+  font-size: 18px;
+  color: rgb(49, 49, 49);
+  font-weight: 600;
+
+}
+h1{
+  font-size: 100px;
+  color: rgb(12, 14, 114);
+  text-shadow: 2px 2px 10px #53929b;
+  margin: 20px;
+}
+h2{
+  font-size: 35px;
+}
+
+h3{
+  font-size: 30px;
+}
+.notFound{
+  font-size: 18px;
+  color: red;
+}

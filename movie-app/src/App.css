@@ -1,0 +1,128 @@
+*{
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+.App{
+  min-height: 100vh;
+  position: relative;
+}
+.searchHeader{
+background-color: rgb(221, 49, 49);
+padding: 15px;
+}
+.submitButton{
+  width: 90px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.searchBar{
+  margin: 7px 15px;
+  width: 35%;
+  padding: 7px;
+  border-radius: 8px;
+}
+.movieContainer{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.movieInfo{
+  width:200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: rgb(64, 127, 127) ;
+  box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); 
+}
+.manuImg{
+  width: 200px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 10px;
+}
+.movieTitle{
+  font-size: 18px;
+  margin: auto;
+}
+.detailsButton{
+  width: 130px;
+  margin: 3px auto 15px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background-color: rgb(83, 3, 3);
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.LinkButton{
+  margin-bottom: 0;
+  margin-top: auto;
+  border-radius: 8px;
+}
+
+.movieDetails{
+  border: 3px solid black;
+  margin: 40px auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 2fr 1fr;
+  background-color: rgb(64, 127, 127);
+  border-radius: 30px;
+}
+
+.imgBox{
+display: flex;
+}
+.imgBox img{
+  border-radius: 10px;
+  margin: auto;
+}
+.detailsBox{
+  border-left:2px solid black ;
+  padding-left: 20px;
+}
+.detailsBox p {
+  text-align: left;
+}
+.aboutBox{
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid black;
+  grid-column: 1/span 2;
+  padding: 10px 40px;
+
+}
+.movieDetails p {
+  font-size: 25px;
+  
+}
+.infoTitle{
+  font-size: 40px;
+}
+.viewButton{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 21px;
+  width: 170px;
+  margin: 30px auto 5px;
+  padding: 4px 7px;
+}
+.footer{
+  background-color: rgb(221, 49, 49);
+  padding: 15px;
+  bottom: 0;
+  margin-top: 20px;
+}
+.madeWith{
+font-size: 30px;
+}
