@@ -54,7 +54,7 @@ class Movie extends React.Component {
           <a href={`https://www.imdb.com/title/${imdbID}`} target="blank">
             <h2 className="viewButton">View on IMBD</h2>
           </a>
-          <Link className="viewButton" to="/">
+          <Link className="viewButton" to="/movie_app_code/">
             Go Back To Search
           </Link>
         </div>

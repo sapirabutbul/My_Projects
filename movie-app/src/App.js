@@ -9,8 +9,8 @@ function App() {
     <div>
       <div className="App">
         <Switch>
-          <Route path="/" exact children={<Landing />} />
-          <Route path="/movie" exact children={<Movie />} />
+          <Route path="/movie_app_code/" exact children={<Landing />} />
+          <Route path="/movie_app_code/movie" exact children={<Movie />} />
         </Switch>
       </div>
       <Footer />

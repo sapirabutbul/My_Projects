@@ -14,7 +14,7 @@ const MovieInfo = (props) => {
         {Title} - {Year}
       </h3>
 
-      <Link className="LinkButton" to="/movie">
+      <Link className="LinkButton" to="/movie_app_code/movie">
         <button
           className="detailsButton"
           id={imdbID}
